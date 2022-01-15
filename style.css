@@ -189,3 +189,19 @@
             font-weight: 800;
             margin: 10px 0;
         }
+        
+        .see-more h4 {
+            display: flex;
+            /* flex-direction: column; */
+            justify-content: right;
+            align-items: right;
+            margin: 30px 0;
+            font-size: 20px;
+            color: firebrick;
+        }
+        
+        .see-more i {
+            position: relative;
+            left: 10px;
+            top: 10px;
+        }
