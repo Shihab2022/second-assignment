@@ -30,6 +30,12 @@
             font-size: 18px;
             text-align: center;
             margin-top: 10px;
+            transition: .8s;
+        }
+        
+        .primary-btn:hover {
+            width: 45%;
+            /* text-align: center; */
         }
         /* start navbar section */
         
@@ -108,4 +114,22 @@
             background-color: rgb(252, 252, 252);
             border-radius: 50%;
             box-shadow: 10px 10px 10px rgb(252, 252, 252);
+        }
+        /* start main section */
+        
+        .compani-icon-section {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 5px;
+            border-top: 2px solid rgb(219, 200, 200);
+            border-bottom: 2px solid rgb(226, 200, 200);
+            border-radius: 30px;
+            padding: 35px 0;
+            margin: 100px 0;
+        }
+        
+        .compani-icon-section img {
+            width: 70%;
+            height: 70%;
+            margin-left: 19px;
         }
